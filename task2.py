@@ -38,7 +38,7 @@ def decoding(file: str) -> None:
                 else:
                     text.append(i)
 
-    new_file = open('output_2.txt', 'w')
+    new_file = open('C:/Users/79376/ib_lab1/isb-1/output_2.txt', 'w')
     for element in text:
         new_file.write(element)
     new_file.close()
